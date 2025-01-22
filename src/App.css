@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .navbar {
     background-color: #3c8d9e;
@@ -39,14 +39,14 @@
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
-    transition: transform 0.5s ease, box-shadow 0.3s ease;
-  
   }
   
   
   a:hover {
     background-color: white;
     color: black;
+    transition: 0.5s;
+    transform: scale(2.5);
    
   }
   
